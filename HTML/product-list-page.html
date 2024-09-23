@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/plpstyle.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;600;700&display=swap">
+    <title>Product list with Cart</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+</head>
+<body>
+    <h1>Desserts</h1>
+    <div class="wrapper">
+        <div class="menu">
+            <div class="item" id="item0"data-name="waffel" data-price="6.50">
+                <div class="img-wrapper">
+                    <img src="../resour/images/image-waffle-desktop.jpg" alt="">
+                    <button class="add-to-cart" id="add-to-cart1">
+                        <i class="fas fa-shopping-cart"></i> Add to cart</button>
+                    
+                </div>
+                 <h4>waffel</h4>
+                 <h3 class="item-name">waffel with berries</h3>
+                <span class="price">$6.50</span>
+                <div class="increase-decrease-wrapper" >
+                    <button class="decrease" data-name="waffle"> <i class="fas fa-minus"></i></button>
+                    <span class="Quantity">1</span>
+                    <button class="increase" data-name="waffle"> <i class="fas fa-plus"></i></button>
+
+                </div>
+                
+
+            </div>
+            <div class="item" id="item00" data-name="creme brulee" data-price="7.00">
+                <div class="img-wrapper">
+                    <img src="../Resour/images/image-creme-brulee-desktop.jpg" alt="">
+                    <button class="add-to-cart" id="add-to-cart2"> <i class="fas fa-shopping-cart"></i> Add to cart</button>
+
+                </div>
+                <h4>creme brulee</h4>
+                <h3>Vanilla bean creme brulee</h3>
+                <span class="price">$7.00</span>
+                <div class="increase-decrease-wrapper"  >
+                    <button class="decrease" data-name="creme brulee"> <i class="fas fa-minus"></i></button>
+                    <span class="Quantity">1</span>
+                    <button class="increase" data-name="creme brulee"> <i class="fas fa-plus"></i></button>
+
+                </div>
+                
+
+            </div>
+            <div class="item" id="item1" data-name="macaron" data-price="8.00">
+                <div class="img-wrapper">
+                <img src="../Resour/images/image-macaron-desktop.jpg" alt="">
+                <button class="add-to-cart" id="add-to-cart3"> <i class="fas fa-shopping-cart"></i> Add to cart</button>
+            </div>
+            <h4>macaron</h4>
+                <h3>macaron mix of fives</h3>
+                <span class="price">$8.00</span>
+                <div class="increase-decrease-wrapper" >
+                    <button class="decrease" data-name="Macaron"> <i class="fas fa-minus"></i></button>
+                    <span class="Quantity">1</span>
+                    <button class="increase" data-name="macaron"> <i class="fas fa-plus"></i></button>
+
+                </div>
+                
+
+            </div>
+            <div class="item" id="item2"  data-name="Tiramisu" data-price="5.50">
+                <div class="img-wrapper">
+                    <img src="../Resour/images/image-tiramisu-desktop.jpg" alt="">
+                    <button class="add-to-cart" id="add-to-cart4"> <i class="fas fa-shopping-cart"></i> Add to cart</button>
+                </div>
+                <h4>tiramisu</h4>
+                <h3>classic tiramisu</h3>
+                <span class="price">$5.50</span>
+                <div class="increase-decrease-wrapper"  >
+                    <button class="decrease" data-name="tiramisu"> <i class="fas fa-minus"></i></button>
+                    <span class="Quantity">1</span>
+                    <button class="increase" data-name="tiramisu"> <i class="fas fa-plus"></i></button>
+
+                </div>
+               
+
+            </div>
+            <div class="item" id="item3" data-name="Baklava" data-price="4.00">
+                <div class="img-wrapper">
+                <img src="../Resour/images/image-baklava-desktop.jpg" alt="">
+                <button class="add-to-cart" id="add-to-cart5"> <i class="fas fa-shopping-cart"></i> Add to cart</button>
+            </div>
+            <h4>Baklava</h4>
+                <h3>pistachio baklava</h3>
+                <span class="price">$4.00</span>
+                <div class="increase-decrease-wrapper" >
+                    <button class="decrease" data-name="baklava"> <i class="fas fa-minus"></i></button>
+                    <span class="Quantity">1</span>
+                    <button class="increase" data-name="baklava"> <i class="fas fa-plus"></i></button>
+
+                </div>
+                
+
+            </div>
+            <div class="item" id="item4"data-name="pie" data-price="5.00">
+                <div class="img-wrapper">
+                    <img src="../Resour/images/image-meringue-desktop.jpg" alt="">
+                    <button class="add-to-cart" id="add-to-cart6"><i class="fas fa-shopping-cart"></i> Add to cart</button>
+
+                </div>
+               <h4>Pie</h4>
+                <h3>lemon meringue pie</h3>
+                <span class="price">$5.00</span>
+                <div class="increase-decrease-wrapper"  >
+                    <button class="decrease" data-name="pie"> <i class="fas fa-minus"></i></button>
+                    <span class="Quantity">1</span>
+                    <button class="increase" data-name="pie"> <i class="fas fa-plus"></i></button>
+
+                </div>
+               
+
+            </div>
+            <div class="item" id="item5" data-name="red velvet cake" data-price="5.50">
+                <div class="img-wrapper">
+                <img src="../Resour/images/image-cake-desktop.jpg" alt="">
+                <button class="add-to-cart" id="add-to-cart7"> <i class="fas fa-shopping-cart"></i> Add to cart</button>
+            </div>
+            <h4>Cake</h4>
+                <h3>red valvet cake</h3>
+                <span class="price">$4.50</span>
+                <div class="increase-decrease-wrapper" >
+                    <button class="decrease" data-name="red valvet cake"> <i class="fas fa-minus"></i></button>
+                    <span class="Quantity">1</span>
+                    <button class="increase" data-name="red valvvet cake"> <i class="fas fa-plus"></i></button>
+
+                </div>
+                
+
+            </div>
+            <div class="item" id="item6" data-name="brownie" data-price="5.50">
+                <div class="img-wrapper">
+                <img src="../Resour/images/image-brownie-desktop.jpg" alt="">
+                <button class="add-to-cart" id="add-to-cart8"> <i class="fas fa-shopping-cart"></i> Add to cart</button>
+            </div>
+            <h4>Browine</h4>
+                <h3>salted caramel browine</h3>
+                <span class="price">$5.50</span>
+                <div class="increase-decrease-wrapper">
+                    <button class="decrease" data-name="browine"> <i class="fas fa-minus"></i></button>
+                    <span class="Quantity">1</span>
+                    <button class="increase" data-name="brownie"> <i class="fas fa-plus"></i></button>
+
+                </div>
+                
+
+            </div>
+            <div class="item" id="item7" data-name="panna cotta" data-price="6.50">
+                <div class="img-wrapper">
+                <img src="../Resour/images/image-panna-cotta-desktop.jpg" alt="">
+                <button class="add-to-cart" id="add-to-cart9"> <i class="fas fa-shopping-cart"></i> Add to cart</button>
+            </div>
+            <h4>Panna cotta</h4>
+                <h3>vanilla panna cotta</h3>
+                <span class="price">$6.50</span>
+                <div class="increase-decrease-wrapper" >
+                    <button class="decrease" data-name="panna cotta"> <i class="fas fa-minus"></i></button>
+                    <span class="Quantity">1</span>
+                    <button class="increase" data-name="panna cotta"> <i class="fas fa-plus"></i></button>
+
+                </div>
+                
+
+            </div>
+
+
+        </div>
+        <div class="right-wrap">
+            <h2>your cart <span id="item-count">0</span></h2>
+            <ul class="added-cart"></ul>
+            <div class="cart-items" id="cart-items"></div>
+            <p class="total" id="total">order total:$<span class="total-price">0.00</span></p>
+            <img src="../Resour/illustration-empty-cart.svg" alt="empty" class="empty" />
+            <p class="empty">Your added items will appear here</p>
+        <p style="opacity: 0" class="non-empty">
+            this is a <strong> carbon-neutral </strong>delivery</p>
+
+
+            <button class="btn non-empty" id="confirm-order" style="opacity: 0;">confirm order</button>
+            <!-- <button class="btn" id="reset-order">start new order</button> -->
+            
+
+        </div>
+
+
+
+
+    </div>
+    <!-- order confirmation -->
+     <div class="confirmation">
+        <div class="order">
+            <i
+          class="fa-regular fa-circle-check"
+          style="color: green; font-size: 30px"
+        ></i>
+        <span class="close"><i class="fa-regular fa-circle-xmark"></i></span>
+        <h2>order confirmed!</h2>
+        <p style="color: hsl(15, 3%, 75%)" class="after">
+          We hope you enjoy your food
+        </p>
+        <h5 id="total">Total:<span class="total-quantity">0</span></h5>
+        <button class="btn" id="reset-order" onclick="location.reload();">
+          start new order
+        </button>
+            
+        </div>
+
+
+     </div>
+     <!-- <script src="../JS/plp.js"></script> -->
+     <script src="../JS/js.js"></script>
+</body>
+
+
+
+    
+
+</html>
